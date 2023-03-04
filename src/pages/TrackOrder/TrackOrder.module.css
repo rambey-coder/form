@@ -1,0 +1,147 @@
+.container {
+  position: relative;
+  display: flex;
+}
+
+.content {
+  width: 90%;
+  margin: 3rem auto 0 auto;
+  flex-grow: 10;
+}
+
+.order {
+  width: 90%;
+  margin: auto;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head > h2 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #031d40;
+  margin: 0;
+}
+
+.head > button {
+  background: #031d40;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  color: #ffff;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.head > button > img {
+  width: 20px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.filter > div {
+  width: 30%;
+  position: relative;
+}
+
+.filter > div > img {
+  position: absolute;
+  width: 20px;
+  left: 5px;
+  top: 8px;
+}
+
+.filter > div > input {
+  width: 100%;
+  padding: 7px 27px;
+  color: #031d40;
+  font-weight: 500;
+  outline: 0;
+  border: 1px solid rgba(82, 82, 82, 0.577);
+  border-radius: 5px;
+}
+
+.filter > div > input:focus {
+  border-color: rgb(73, 163, 241);
+  box-shadow: 1px 1px 8px rgba(26, 115, 232, 0.227);
+}
+
+.filter > select {
+  width: 12%;
+  padding: 7px;
+  outline: 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.history >h5 {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(73, 163, 241);
+}
+
+.userlist_container {
+  background: rgba(197, 224, 248, 0.111);
+  padding: 20px 15px;
+  border-radius: 10px;
+  width: 95%;
+  margin: 2rem auto;
+}
+
+.header_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #6a6a6a;
+  font-weight: 600;
+  font-size: 13px;
+  padding-bottom: 6px;
+}
+
+.header_list > div {
+  width: 20%;
+  text-align: center;
+}
+
+.user_list {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+    margin-top: 20px;
+}
+
+.user_list:hover {
+  transform: translateY(0) scale(1.008) translateZ(2px);
+  filter: drop-shadow(1px 1px 8px #e3e3e350);
+  transition: all 0.4s ease-in-out;
+}
+
+.user_list >div {
+  color: #6a6a6a;
+  font-weight: 400;
+  font-size: 13px;
+  width: 20%;
+  text-align: center;
+}
+
+/* .agent_name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} */

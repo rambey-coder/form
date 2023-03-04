@@ -1,0 +1,42 @@
+.sidebar {
+    background: linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25));
+    width: 300px;
+    height: 100vh;
+    padding: 20px;
+    flex-grow: 1;
+    /* position: absolute;  */
+}
+
+.container {
+    width: 80%;
+    margin: 1rem auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.head {
+    width: 100%;
+}
+
+.head > div, .head > a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    margin: 25px 0;
+    text-decoration: none;
+}
+
+.head > div > img, .head > a > img {
+    width: 25px;
+}
+
+.head > div > p, .head > a > p {
+    color: #fff;
+    font-size: 14px;
+}

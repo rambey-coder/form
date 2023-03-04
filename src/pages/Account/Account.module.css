@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+  display: flex;
+}
+
+.general {
+  width: 90%;
+  margin: 3rem auto 0 auto;
+  flex-grow: 10;
+}
+
+.container_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 95%;
+  margin: auto;
+}
